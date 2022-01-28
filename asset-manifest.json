@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Rombeso/portfolio/static/css/main.0df9f8ce.css",
+    "main.js": "/Rombeso/portfolio/static/js/main.f4269243.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Rombeso/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/fon.jpg": "/Rombeso/portfolio/static/media/fon.651afe6ce46871b94351.jpg",
+    "static/media/fon2.jpg": "/Rombeso/portfolio/static/media/fon2.6a52c267e33b42c0ef43.jpg",
+    "index.html": "/Rombeso/portfolio/index.html",
+    "main.0df9f8ce.css.map": "/Rombeso/portfolio/static/css/main.0df9f8ce.css.map",
+    "main.f4269243.js.map": "/Rombeso/portfolio/static/js/main.f4269243.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Rombeso/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0df9f8ce.css",
+    "static/js/main.f4269243.js"
+  ]
+}
