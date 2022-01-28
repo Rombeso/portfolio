@@ -1,0 +1,28 @@
+.footerBlock {
+    min-height: 100vh;
+    background-color: thistle;
+}
+
+.footerContainer {
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.title {
+    background-color: lightgray;
+}
+
+.footerSocial {
+    border: 1px solid;
+    width: 70%;
+    min-width: 284px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.items {
+    background-color: darkgray;
+    width: 68px;
+    height: 68px;
+}
