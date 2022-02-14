@@ -2,8 +2,9 @@ import React from "react";
 import style from './MyWorks.module.css'
 import styleContainer from "../commond/styles/Container.module.css";
 import {Project} from "./Project/Project";
-import fon from '../../src/images/fon.jpg'
-import fon2 from '../../src/images/fon2.jpg'
+import fon from '../assets/images/fon.jpg'
+import fon2 from '../assets/images/fon2.jpg'
+import {Title} from "../commond/components/title/Title";
 
 
 export const MyWorks = () => {
@@ -11,10 +12,10 @@ export const MyWorks = () => {
     return (
         <div className={style.myWorksBlock}>
             <div className={`${styleContainer.container} ${style.myWorksContainer}`}>
-                <h2 className={style.title}>My works</h2>
+                <Title title={'My works that I did'} sectionTitle={'Portfolio'}/>
                 <div className={style.works}>
                     <Project title={'Project name 1'}
-                             description={'Line 11:13:  The href attribute requires a valid value to be accessible. Provide'}
+                             description={'Line 11:13:  The href attribute href attribute href attribute href attribute requires a valid value to be accessible. Provide'}
                              backgroundImage={fon}
                     />
                     <Project title={'Project name 2'}

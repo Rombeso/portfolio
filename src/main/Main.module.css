@@ -1,6 +1,7 @@
 .mainBlock {
     min-height: 100vh;
-    background-color: lightpink;
+    background-color: #3a3934;
+
 }
 
 .text {
@@ -12,4 +13,11 @@
     width: 300px;
     height: 400px;
     background-color: lightgray;
+}
+
+
+@media screen and (max-width: 768px){
+    div .mainContainer {
+        justify-content: center;
+    }
 }

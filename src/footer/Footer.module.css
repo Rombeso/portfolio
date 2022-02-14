@@ -1,16 +1,18 @@
 .footerBlock {
     min-height: 100vh;
-    background-color: thistle;
+    background-color: #1d1b2b;
 }
 
 .footerContainer {
     justify-content: flex-start;
     flex-direction: column;
     flex-wrap: wrap;
+    background-color: #494b50;
 }
 
 .title {
     background-color: lightgray;
+
 }
 
 .footerSocial {
