@@ -1,12 +1,18 @@
+@import "../commond/styles/sass/variables";
+
 .skillsBlock {
-    min-height: 100vh;
-    background-color: #1d1b1b;
+    min-height: 100%;
+    background-color: $bgColor;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .skillsContainer {
     justify-content: flex-start;
     flex-direction: column;
-    background-color: #494b50;
+    background-color: $bgBlocksColor;
+    border-radius: 15px;
+    padding: 30px;
 }
 
 .title {
@@ -21,7 +27,7 @@
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 733px){
+@media screen and (max-width: 1468px){
     .skills {
         justify-content: center;
 

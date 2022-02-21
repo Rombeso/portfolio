@@ -1,0 +1,28 @@
+@import "../../commond/styles/sass/variables";
+.skill {
+    width: 180px;
+    background-color: $bgItems;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 16px;
+    border-radius: 15px;
+    margin: 10px;
+    .icon {
+        height: 150px;
+        width: 150px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;;
+    }
+    & h3 {
+        margin: 5px 0;
+        font-family: $font;
+        font-size: 24px;
+        font-weight: 700;
+        color: $textColor;
+        line-height: 1.2;
+    }
+}
+

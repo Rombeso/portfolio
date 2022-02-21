@@ -22,7 +22,7 @@ export const Main = () => {
                 <div className={style.text}>
                     <Title title={'Roman Larionov'}
                            sectionTitle={'I am'}
-                           subtitle={'A Frontend Developer'}
+                           subtitle={'Frontend Developer'}
                            titleStyle={titleStyle}
                     />
                 </div>
