@@ -1,17 +1,22 @@
-import React from "react";
-import style from './Title.module.css'
+import React, {CSSProperties} from "react";
+import style from './Title.module.scss'
 
 type PropsStyle = {
-    title: string;
-    sectionTitle: string;
+    title: string
+    sectionTitle: string
+    subtitle?: string
+    titleStyle?: CSSProperties
+    sectionTitleStyle?: CSSProperties
+    subtitleStyle?: CSSProperties
 }
 
 export const Title = (props: PropsStyle) => {
 
     return (
         <div className={style.title}>
-            <span>{props.sectionTitle}</span>
-            <h2>{props.title}</h2>
+            <span style={props.sectionTitleStyle}>{props.sectionTitle}</span>
+            <h2 style={props.titleStyle}>{props.title}</h2>
+            <p style={props.subtitleStyle}>{props.subtitle}</p>
         </div>
     )
 }

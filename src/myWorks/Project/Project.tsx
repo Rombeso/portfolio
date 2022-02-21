@@ -1,6 +1,5 @@
 import React from "react";
-import style from './Project.module.css'
-
+import style from './Project.module.scss'
 
 
 type PropsStyle = {
@@ -14,9 +13,11 @@ export const Project = (props: PropsStyle) => {
     return (
         <div className={style.project}>
             <div className={style.image}
-                 style={{background: `url(${props.backgroundImage})`,
+                 style={{
+                     background: `url(${props.backgroundImage})`,
                      backgroundSize: "cover", backgroundPosition: "center",
-                 backgroundRepeat: "no-repeat"}}
+                     backgroundRepeat: "no-repeat"
+                 }}
             >
                 <a href={''} className={style.button}>View more</a>
             </div>
