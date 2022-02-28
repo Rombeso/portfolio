@@ -11,10 +11,10 @@ export const Footer = () => {
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
                 <h2 className={style.title}>Roman Larionov</h2>
                 <div className={style.footerSocial}>
-                    <LincIcon/>
-                    <LincIcon/>
-                    <LincIcon/>
-                    <LincIcon/>
+                    <LincIcon title={"Codewars"} url={'https://www.codewars.com/users/Rombeso'}/>
+                    <LincIcon title={"Linkedin"} url={'https://www.linkedin.com/in/roman-larionov-60586876/'}/>
+                    <LincIcon title={"Telegram"} url={'https://t.me/rombeso'}/>
+                    <LincIcon title={"Github"} url={'https://github.com/Rombeso'}/>
                 </div>
                 <span>©2022 All rights reserved</span>
             </div>

@@ -1,21 +1,24 @@
 import React from "react";
 
 import style from './Skill.module.scss'
-import myPhoto from "../../assets/images/my-cropped2.jpg";
+import {SvgSelector} from "../../commond/components/svgSelector/svgSelector";
 
 type PropsStyle = {
-    title: string;
-    urlIcon:string;
+    title: string
+    width: string
+    height: string
 }
 
-export const Skill = (props: PropsStyle) => {
+export const Skill = ({title, width, height}: PropsStyle) => {
 
     return (
         <div className={style.skill}>
-            <div className={style.icon}
-                 style={{backgroundImage: `url(${props.urlIcon})`}}>
+            {/*<div className={style.icon}*/}
+            {/*     style={{backgroundImage: `url(${props.urlIcon})`}}>         */}
+                <div className={style.icon}>
+                    <SvgSelector  id={title} width={width} height={height}/>
             </div>
-            <h3>{props.title}</h3>
+            <h3>{title}</h3>
         </div>
     )
 }

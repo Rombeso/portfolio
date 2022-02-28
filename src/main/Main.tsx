@@ -31,10 +31,10 @@ export const Main = () => {
                     {backgroundImage: `url(${myPhoto})`}}>
                 </div>
                 <div className={style.lickBlock}>
-                    <LincIcon iconUrl={codewars} url={'https://www.codewars.com/users/Rombeso'}/>
-                    <LincIcon iconUrl={linkedin} url={'https://www.linkedin.com/in/roman-larionov-60586876/'}/>
-                    <LincIcon iconUrl={portfolio} url={'https://rombeso.github.io/portfolio/'}/>
-                    <LincIcon iconUrl={git} url={'https://github.com/Rombeso'}/>
+                    <LincIcon title={"Codewars"} url={'https://www.codewars.com/users/Rombeso'}/>
+                    <LincIcon title={"Linkedin"} url={'https://www.linkedin.com/in/roman-larionov-60586876/'}/>
+                    <LincIcon title={"Telegram"} url={'https://t.me/rombeso'}/>
+                    <LincIcon title={"Github"} url={'https://github.com/Rombeso'}/>
                 </div>
             </div>
         </div>

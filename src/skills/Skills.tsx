@@ -17,16 +17,16 @@ export const Skills = () => {
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <Title title={'My professional skills'} sectionTitle={'Skills'}/>
                 <div className={style.skills}>
-                    <Skill title={'React'} urlIcon={react}/>
-                    <Skill title={'Redux'} urlIcon={redux}/>
-                    <Skill title={'TypeScript'} urlIcon={typescript}/>
-                    <Skill title={'JavaScript'} urlIcon={javascript}/>
-                    <Skill title={'JavaScript'} urlIcon={javascript}/>
-                    <Skill title={'JavaScript'} urlIcon={javascript}/>
-                    <Skill title={'JavaScript'} urlIcon={javascript}/>
-                    <Skill title={'JavaScript'} urlIcon={javascript}/>
-                    <Skill title={'JavaScript'} urlIcon={javascript}/>
-                    <Skill title={'JavaScript'} urlIcon={javascript}/>
+                    <Skill title={'React'} width="150" height="150"/>
+                    <Skill title={'Redux'} width="150" height="150"/>
+                    <Skill title={'TypeScript'} width="150" height="150"/>
+                    <Skill title={'JavaScript'} width="150" height="150"/>
+                    <Skill title={'HTML'} width="150" height="150"/>
+                    <Skill title={'CSS'} width="150" height="150"/>
+                    <Skill title={'SASS'} width="150" height="150"/>
+                    <Skill title={'Formik'} width="150" height="150"/>
+                    <Skill title={'Jest'} width="150" height="150"/>
+                    <Skill title={'Git'} width="150" height="150"/>
                 </div>
             </div>
         </div>
