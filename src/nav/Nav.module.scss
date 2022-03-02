@@ -1,0 +1,36 @@
+@import "../commond/styles/sass/variables";
+
+//.nav {
+//    border: 1px solid red;
+//    width: 300px;
+//    display: flex;
+//    justify-content: space-between;
+//}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+    background: #ff451b;
+    height: 100%;
+}
+
+.item {
+    padding: 1em;
+    display: block;
+    background: #1d1b1b;
+    width: 83px;
+    text-align: center;
+}
+
+.item a {
+    text-decoration: none;
+    font-family: $font;
+    font-size: 12px;
+    font-weight: 700;
+    color: $textColor;
+}
+.item:hover {
+    background: #ff451b;
+}

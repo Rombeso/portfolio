@@ -2,10 +2,10 @@
 
 .mainBlock {
   min-height: 100vh;
-  background-color: $bgFooterColor;
+  background-color: #494b50;
 
   .mainContainer {
-    padding-top: 12%;
+    padding-top: 10%;
     @media screen and (max-width: 795px) {
       justify-content: center;
       text-align: center;
@@ -36,7 +36,6 @@
   }
 
   .lickBlock {
-    border: 1px solid;
     width: 70%;
     min-width: 284px;
     max-width: 300px;
