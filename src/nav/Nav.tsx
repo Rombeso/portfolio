@@ -31,7 +31,8 @@ export const Nav = () => {
                     offset={-15}
                     duration={500}
                 >Contacts</Link></li>
-                <li className={style.item}><a href={require("./../assets/files/LarionovRoman_RU.pdf")} target="blank">Download CV</a></li>
+                <li className={style.item}><a href={require("")} target="blank">Download CV</a></li>
+                {/*<li className={style.item}><a href={require("./../assets/files/LarionovRoman_RU.pdf")} target="blank">Download CV</a></li>*/}
             </ul>
     )
 }
