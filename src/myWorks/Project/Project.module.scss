@@ -17,18 +17,6 @@
     justify-content: center;
     width: 100%;
     border-radius: 15px 15px 0px 0px;
-    //position: relative;
-    //&::before {
-    //  position: absolute;
-    //  content: '';
-    //  background-color: $bgColor;
-    //  top: 0;
-    //  bottom: 0;
-    //  right: 0;
-    //  left: 0;
-    //  opacity: 0.2;
-    //  border-radius: 15px 15px 0px 0px;
-    //}
 
     .button {
       background: $primaryColor;
@@ -40,6 +28,8 @@
       //z-index: 1;
       @include text($font, 14px, 1.6, 600)
     }
+
+
   }
 
   .projectTitle {
@@ -50,6 +40,10 @@
   .description {
     padding: 5px;
     @include text($font, 16px, 1.6, 400)
+  }
+
+  .gitLink {
+    color: $textColor;
   }
 }
 

@@ -33,7 +33,7 @@ export const Contacts = () => {
             })
     }
     return (
-        <div className={style.contactsBlock}>
+        <div id={"contacts"} className={style.contactsBlock}>
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
                 <Title title={'I would like to find full-time employment'} sectionTitle={'Contact Me'}/>
                 <div className={style.contacts}>
@@ -57,7 +57,6 @@ export const Contacts = () => {
                         </form>
                     </div>
                 </div>
-
             </div>
         </div>
     )
