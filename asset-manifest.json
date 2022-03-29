@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a179e52f.css",
-    "main.js": "/portfolio/static/js/main.aa2472ff.js",
+    "main.css": "/portfolio/static/css/main.b45e7c63.css",
+    "main.js": "/portfolio/static/js/main.8df6bc3c.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/cards.jpg": "/portfolio/static/media/cards.3efd70cd3e08ba35c862.jpg",
+    "static/media/LarionovRoman_RU.pdf": "/portfolio/static/media/LarionovRoman_RU.63a05b53e094fabde544.pdf",
+    "static/media/sn.jpg": "/portfolio/static/media/sn.78132602ffe0b1f2441f.jpg",
     "static/media/my-cropped2.jpg": "/portfolio/static/media/my-cropped2.3fc4bf5cb5bad29cae25.jpg",
-    "static/media/fon.jpg": "/portfolio/static/media/fon.651afe6ce46871b94351.jpg",
-    "static/media/fon2.jpg": "/portfolio/static/media/fon2.6a52c267e33b42c0ef43.jpg",
+    "static/media/td.jpg": "/portfolio/static/media/td.7715102807853e2ac176.jpg",
     "index.html": "/portfolio/index.html",
-    "main.a179e52f.css.map": "/portfolio/static/css/main.a179e52f.css.map",
-    "main.aa2472ff.js.map": "/portfolio/static/js/main.aa2472ff.js.map",
+    "main.b45e7c63.css.map": "/portfolio/static/css/main.b45e7c63.css.map",
+    "main.8df6bc3c.js.map": "/portfolio/static/js/main.8df6bc3c.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a179e52f.css",
-    "static/js/main.aa2472ff.js"
+    "static/css/main.b45e7c63.css",
+    "static/js/main.8df6bc3c.js"
   ]
 }
