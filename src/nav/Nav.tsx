@@ -31,10 +31,7 @@ export const Nav = () => {
                     offset={-15}
                     duration={500}
                 >Contacts</Link></li>
-                <li className={style.item}><a href={''} target="blank">Download CV</a></li>
-                {/*<li className={style.item}><a href={require("./../assets/files/LarionovRoman_RU.pdf")} target="blank">Download CV</a></li>*/}
+                <li className={style.item}><a href={'https://drive.google.com/file/d/1TbHU8uSa96E3I4OIDxRNZwzIpVmZkMdF/view'} target="_blank">Download CV</a></li>
             </ul>
     )
 }
-
-// href="./../assets/files/LarionovRoman_RU.pdf"
