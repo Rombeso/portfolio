@@ -5,6 +5,8 @@ import {Project} from "./Project/Project";
 import socialNetwork from '../assets/images/projects/sn.jpg'
 import todoList from '../assets/images/projects/td.jpg'
 import cards from '../assets/images/projects/cards.jpg'
+import weather from '../assets/images/projects/Weather.png'
+
 import {Title} from "../commond/components/title/Title";
 
 
@@ -31,10 +33,16 @@ export const MyWorks = () => {
                              gitLink={'https://github.com/Rombeso/TodoList'}
                     />
                     <Project title={'Memorization Cards'}
-                             description={'Technologies: CSS, JavaScript, TypeScript, React, Redux, Thunk, React Hook Form, Axios, Redux Toolkit, Unit testing, Bug fixing, deploying.'}
+                             description={'Technologies: CSS, JavaScript, TypeScript, React, Redux, Thunk, React Hook Form, Axios, Unit testing, Bug fixing, deploying.'}
                              backgroundImage={cards}
                              pageLink={'https://foxside.github.io/friday-project/'}
                              gitLink={'https://github.com/FoxSide/friday-project'}
+                    />
+                    <Project title={'Weather forecast'}
+                             description={'Technologies: CSS, JavaScript, HTML.'}
+                             backgroundImage={weather}
+                             pageLink={'https://rombeso.github.io/fm_wather/'}
+                             gitLink={'https://github.com/Rombeso/fm_wather'}
                     />
                 </div>
             </div>
