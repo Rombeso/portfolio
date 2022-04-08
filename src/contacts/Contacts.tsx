@@ -6,15 +6,11 @@ import {ContactBlock} from "../commond/components/contactBlock/contactBlock";
 import {faPhone, faAt, faPaperPlane} from "@fortawesome/free-solid-svg-icons";
 import axios from "axios";
 
-
 export const Contacts = () => {
 
     const [state, setState] = useState({})
 
-
     const handleInputChange = (e: (ChangeEvent<HTMLInputElement & HTMLTextAreaElement>)) => {
-        // e.preventDefault()
-        //   const target = e.;
         const value = e.currentTarget.value;
         const name = e.currentTarget.name;
 
@@ -38,11 +34,10 @@ export const Contacts = () => {
                 <Title title={'I would like to find full-time employment'} sectionTitle={'Contact Me'}/>
                 <div className={style.contacts}>
                     <div className={style.myContacts}>
-                        <div className={style.myContactsBlock}>
+                        <div>
                             <ContactBlock title={"Phone"} text={"+7964 410 6370"} icon={faPhone}/>
                             <ContactBlock title={"E-mail"} text={"larionovra@gmail.com"} icon={faAt}/>
                             <ContactBlock title={"Telegram"} text={"@rombeso"} icon={faPaperPlane}/>
-
                         </div>
                     </div>
                     <div className={style.formContacts}>

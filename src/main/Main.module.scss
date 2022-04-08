@@ -1,4 +1,5 @@
 @import "../commond/styles/sass/variables";
+@import "../commond/styles/sass/mixins";
 
 .mainBlock {
   min-height: 100vh;
@@ -11,37 +12,34 @@
       text-align: center;
       padding-top: 0;
     }
-  }
+    .text {
+      width: 300px;
+      margin: 5px;
+    }
 
-  .text {
-    width: 300px;
-    font-size: 70px;
-    margin: 5px;
-
-  }
-
-  .photo {
-    width: 400px;
-    height: 400px;
-    background-color: lightgray;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    margin: 5px;
+    .photo {
+      width: 400px;
+      height: 400px;
+      background-color: $textGreyLight;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      border-radius: 50%;
+      margin: 5px;
       @media screen and (max-width: 952px) {
-          width: 300px;
-          height: 300px;
+        width: 300px;
+        height: 300px;
       }
-  }
+    }
 
-  .lickBlock {
-    width: 70%;
-    min-width: 284px;
-    max-width: 300px;
-    display: flex;
-    justify-content: space-between;
-    margin: 5px;
+    .lickBlock {
+      width: 70%;
+      min-width: 284px;
+      max-width: 300px;
+      display: flex;
+      justify-content: space-between;
+      margin: 5px;
+    }
   }
 }
 

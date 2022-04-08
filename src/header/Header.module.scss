@@ -1,7 +1,10 @@
+@import "../commond/styles/sass/variables";
+@import "../commond/styles/sass/mixins";
+
 .header {
     height: 50px;
     width: 100%;
-    background-color: #1d1b1b;
+    background-color: $bgColor;
     display: flex;
     justify-content: center;
     align-items: center;

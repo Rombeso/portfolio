@@ -9,7 +9,6 @@ export const Footer = () => {
     return (
         <div className={style.footerBlock}>
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
-                {/*<h2 className={style.title}>Roman Larionov</h2>*/}
                 <div className={style.footerSocial}>
                     <LincIcon title={"Codewars"} url={'https://www.codewars.com/users/Rombeso'}/>
                     <LincIcon title={"Linkedin"} url={'https://www.linkedin.com/in/roman-larionov-60586876/'}/>

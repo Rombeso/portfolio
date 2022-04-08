@@ -1,42 +1,34 @@
 @import "../commond/styles/sass/variables";
-
-//.nav {
-//    border: 1px solid red;
-//    width: 300px;
-//    display: flex;
-//    justify-content: space-between;
-//}
+@import "../commond/styles/sass/mixins";
 
 .list {
     list-style: none;
     margin: 0;
     padding-left: 0;
     display: flex;
-    background: #ff451b;
+    background: $primaryColor;
     height: 100%;
-}
 
-.item {
-    padding: 1em;
-    display: block;
-    background: #1d1b1b;
-    width: 83px;
-    text-align: center;
-    &:hover {
-        background: #ff451b;
+    .item {
+        padding: 1em;
+        display: block;
+        background: #1d1b1b;
+        width: 83px;
+        text-align: center;
+        &:hover {
+            background: $primaryColor;
+        }
+        .active {
+            color: $bgItems;
+        }
     }
-    .active {
-        color: #494b50;
+    .item a {
+        text-decoration: none;
+        cursor: pointer;
+        @include text($font, 12px, 1.6, 700, $textColor)
     }
 }
 
-.item a {
-    text-decoration: none;
-    font-family: $font;
-    font-size: 12px;
-    font-weight: 700;
-    color: $textColor;
-    cursor: pointer;
 
 
-}
+
