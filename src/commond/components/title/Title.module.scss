@@ -1,28 +1,20 @@
 @import "../../styles/sass/variables";
+@import "../../styles/sass/mixins";
+
 .title {
     margin-right: auto;
     & h2 {
-        color: $textColor;
-        font-size: 40px;
-        font-weight: 700;
-        line-height: 1.2;
-        font-family: $font;
         margin: 0 0;
+        @include text($font, 40px, 1.2, 700, $textColor)
     }
     & span {
-        font-size: 23px;
-        color: $primaryColor;
-        font-weight: 700;
         display: inline-block;
-        font-family: $font;
+        @include text($font, 23px, 1.2, 700, $primaryColor)
     }
     & p{
-        font-size: 30px;
         margin-bottom: 20px;
-        color: #a7afbd;
-        line-height: 1.6;
-        font-weight: 400;
         word-wrap: break-word;
+        @include text($font, 30px, 1.6, 400, $textGrey)
     }
 
 }

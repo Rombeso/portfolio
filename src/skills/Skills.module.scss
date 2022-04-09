@@ -1,34 +1,28 @@
 @import "../commond/styles/sass/variables";
+@import "../commond/styles/sass/mixins";
 
 .skillsBlock {
     min-height: 100%;
     background-color: $bgColor;
     padding-top: 40px;
     padding-bottom: 40px;
-}
-
-.skillsContainer {
-    justify-content: flex-start;
-    flex-direction: column;
-    background-color: $bgBlocksColor;
-    border-radius: 15px;
-    padding: 30px;
-}
-
-.title {
-    background-color: lightgray;
-}
-
-.skills {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-@media screen and (max-width: 1468px){
-    .skills {
-        justify-content: center;
-
+    .skillsContainer {
+        justify-content: flex-start;
+        flex-direction: column;
+        background-color: $bgBlocksColor;
+        border-radius: 15px;
+        padding: 30px;
+        .skills {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            @media screen and (max-width: 1468px){
+                    justify-content: center;
+            }
+        }
     }
 }
+
+
+

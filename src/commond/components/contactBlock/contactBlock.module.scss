@@ -1,40 +1,36 @@
+@import "../../../commond/styles/sass/variables";
+@import "../../../commond/styles/sass/mixins";
+
 .contactBlock {
   display: flex;
   background-color: #494b50;
   padding: 10px 0;
-}
 
-.imageBlock {
-  background-color: #ff451b;
-  height: 80px;
-  min-width: 80px;
-  border-radius: 50%;
+  .imageBlock {
+    background-color: #ff451b;
+    height: 80px;
+    min-width: 80px;
+    border-radius: 50%;
+    .image {
+      position: relative;
+      left: 24px;
+      top: 24px;
+    }
+  }
 
-}
+  .description {
+    height: 80px;
+    width: 150px;
+    padding-left: 15px;
+    .title {
+      display: block;
+      margin-bottom: 5px;
+      @include text($font, 19px, 1.2, 700, $textColor)
+    }
+    .text {
+      @include text($font, 18px, 1.2, 400, $textGrey)
+    }
+  }
 
-.image {
-  position: relative;
-  left: 24px;
-  top: 24px;
-}
 
-.description {
-  height: 80px;
-  width: 150px;
-  padding-left: 15px;
-}
-
-.title {
-  display: block;
-  font-size: 19px;
-  margin-bottom: 5px;
-  line-height: 1.2;
-  font-family: poppins;
-  color: #ffffff;
-}
-
-.text {
-  color: #a7afbd;
-  font-weight: 400;
-  font-family: poppins;
 }

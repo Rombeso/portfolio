@@ -13,9 +13,7 @@ export const Skill = ({title, width, height}: PropsStyle) => {
 
     return (
         <div className={style.skill}>
-            {/*<div className={style.icon}*/}
-            {/*     style={{backgroundImage: `url(${props.urlIcon})`}}>         */}
-                <div className={style.icon}>
+                <div>
                     <SvgSelector  id={title} width={width} height={height}/>
             </div>
             <h3>{title}</h3>
